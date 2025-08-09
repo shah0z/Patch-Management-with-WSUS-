@@ -5,45 +5,45 @@ Project Overview
 This project demonstrates the deployment and management of Windows Server Update Services (WSUS) to centrally manage and automate patch distribution within an organization. WSUS allows administrators to approve, schedule, and monitor software updates for Windows servers and clients to maintain security and compliance.
 
 Features
-Centralized patch management for Windows OS and Microsoft products.
+- Centralized patch management for Windows OS and Microsoft products.
 
-Ability to approve or decline updates before deployment.
+- Ability to approve or decline updates before deployment.
 
-Targeting updates by computer groups.
+- Targeting updates by computer groups.
 
-Reporting and monitoring update status.
+- Reporting and monitoring update status.
 
-Scheduling update downloads and installations.
+- Scheduling update downloads and installations.
 
 System Requirements
-Windows Server 2016 or later.
+- Windows Server 2016 or later.
 
-Sufficient disk space for update storage.
+- Sufficient disk space for update storage.
 
-Active Directory domain environment.
+- Active Directory domain environment.
 
 Setup Instructions
-Install the WSUS role via Server Manager.
+1. Install the WSUS role via Server Manager.
 
-Configure WSUS server synchronization settings.
+2. Configure WSUS server synchronization settings.
 
-Create computer groups to organize clients.
+3. Create computer groups to organize clients.
 
-Approve updates and assign to groups.
+4. Approve updates and assign to groups.
 
-Configure Group Policy for client update settings.
+5. Configure Group Policy for client update settings.
 
-Monitor WSUS reports to ensure compliance.
+6. Monitor WSUS reports to ensure compliance.
 
 Testing
-Verify client computers report to WSUS.
+- Verify client computers report to WSUS.
 
-Confirm updates are installed as approved.
+- Confirm updates are installed as approved.
 
-Review update compliance reports.
+- Review update compliance reports.
 
 Notes
-Regularly synchronize WSUS with Microsoft Update.
+- Regularly synchronize WSUS with Microsoft Update.
 
 Clean up WSUS database periodically to maintain performance.
 
